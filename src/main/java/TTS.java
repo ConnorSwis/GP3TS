@@ -1,11 +1,8 @@
 import com.sun.speech.freetts.Voice;
 import com.sun.speech.freetts.VoiceManager;
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-
 public class TTS {
-    public static void say(String text) throws IOException {
+    public static void say(String text) {
 
 //            String text = GPT.getResponse("(In minecraft)\nPlayer: *Hits villager*\n Villager: ");
         System.setProperty("freetts.voices", "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
